@@ -1,23 +1,11 @@
 # ModelViewer Demo 🎨
 
-A modern, interactive 3D model viewer built with Google's Model Viewer web component. View, interact with, and download 3D models in GLB/GLTF format with support for Augmented Reality.
+A modern, interactive 3D model viewer built with Google's <em>model-viewer</em> web component. View, interact with, and download 3D models in GLB/GLTF format with support for Augmented Reality.
 
 ## 📚 Resources
 
 - **[Model Viewer Official Site](https://modelviewer.dev/)** - Main documentation and examples
 - **[Model Viewer API Reference](https://modelviewer.dev/docs/intro)** - Complete API documentation
-- **[Model Viewer GitHub](https://github.com/google/model-viewer)** - Source code and issues
-- **[glTF Format Spec](https://www.khronos.org/gltf/)** - 3D model format specification
-
-## Features
-
-- 🔄 **Auto-rotate** - Automatically spin the model
-- 🎮 **Camera controls** - Click and drag to rotate, scroll to zoom
-- 📱 **AR Support** - View models in your real environment (on supported devices)
-- 📁 **Custom uploads** - Load your own GLB/GLTF files
-- ⬇️ **Download** - Save GLB files to your device
-- 📱 **Responsive** - Works great on desktop, tablet, and mobile
-- 🎨 **Beautiful UI** - Modern, gradient background with smooth interactions
 
 ## Quick Start
 
@@ -52,22 +40,9 @@ Then navigate to `http://localhost:8000` in your browser.
 
 Simply open `index.html` directly in your web browser. The demo loads the model from your assets folder.
 
-## How to Use
-
-1. **Rotate Model** - Click and drag with your mouse
-2. **Zoom** - Use your mouse wheel or pinch on touch devices
-3. **Auto-rotate** - Click the "Toggle Auto-Rotate" button
-4. **AR Mode** - Click "Toggle AR" button (requires supported device)
-5. **Upload Custom Model** - Click the file upload area to load your own GLB/GLTF files
-6. **Download** - Click "Download GLB" to save the current model
-
 ## Adding Your Own GLB Files
 
-### Method 1: Upload via UI
-
-Click the file upload area and select your GLB/GLTF file.
-
-### Method 2: Modify HTML
+### Method 1: Modify HTML
 
 Edit `index.html` and change the `src` attribute in the `<model-viewer>` tag:
 
@@ -75,7 +50,7 @@ Edit `index.html` and change the `src` attribute in the `<model-viewer>` tag:
 <model-viewer src="path/to/your/model.glb" ...> </model-viewer>
 ```
 
-### Method 3: Reference Remote URLs
+### Method 2: Reference Remote URLs
 
 Replace the `src` with any publicly accessible GLB URL:
 
@@ -89,32 +64,6 @@ Replace the `src` with any publicly accessible GLB URL:
 - **GLTF** - JSON-based format with separate texture files
 
 Both formats are fully supported by Model Viewer.
-
-## Browser Support
-
-- ✅ Chrome 83+
-- ✅ Firefox 77+
-- ✅ Safari 12.1+
-- ✅ Edge 83+
-- ✅ Mobile browsers with WebGL support
-
-## AR Support
-
-AR viewing requires:
-
-- Device with AR capabilities (most modern smartphones)
-- Chrome, Firefox, or Safari mobile browser
-- HTTPS connection (or localhost)
-
-## Customization
-
-Edit `index.html` to customize:
-
-- **Colors** - Change the gradient in CSS
-- **Model size** - Modify the `height` property in `model-viewer` CSS
-- **Camera position** - Adjust `camera-controls` settings
-- **Background** - Change `environment-image` attribute
-- **Lighting** - Add `lighting` configurations
 
 ## Resources
 
