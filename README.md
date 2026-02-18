@@ -5,7 +5,6 @@ A modern, interactive 3D model viewer built with Google's <em>model-viewer</em> 
 ## 📚 Resources
 
 - **[Model Viewer Official Site](https://modelviewer.dev/)** - Main documentation and examples
-- **[Model Viewer API Reference](https://modelviewer.dev/docs/intro)** - Complete API documentation
 
 ## Quick Start
 
@@ -16,7 +15,7 @@ A modern, interactive 3D model viewer built with Google's <em>model-viewer</em> 
    - Open Extensions (Cmd+Shift+X on Mac)
    - Search for "Live Server"
    - Click Install
-3. Right-click on `index.html` and select "Open with Live Server"
+3. Click "Go Live" in the bottom right of the window, or right-click on `index.html` and select "Open with Live Server"
 4. Your browser will automatically open and reload on file changes
 
 ### Option 2: Use a Local Server
